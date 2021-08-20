@@ -1,0 +1,117 @@
+[
+  {
+    "type": "Electronics",
+    "popularCategories": [
+      "Cell phones and accessories",
+      "Video games and consoles",
+      "Computers and tablets",
+      "Cameras and photos",
+      "Camera drones",
+      "Asian Brands",
+      "Smart home"
+    ],
+    "moreCategories": [
+      "Apple",
+      "Samsung",
+      "Xiaomi",
+      "Portable audio and headphones",
+      "Smart watches",
+      "Deals",
+      "Sell on eBay"
+    ],
+    "backgroundImage": "./img/electronics.jfif"
+  },
+  {
+    "type": "Health & Beauty",
+    "popularCategories": [
+      "Beauty",
+      "Makeup",
+      "Health",
+      "K-Beauty",
+      "Manicure and pedicure",
+      "Hair products",
+      "Skin products",
+      "Orthopedic products"
+    ],
+    "moreCategories": [
+      "Vitamins and food supplements",
+      "Shaving and waxing",
+      "Bath and personal hygiene",
+      "Oral hygiene",
+      "Massagers",
+      "Deals",
+      "Sell on eBay"
+    ],
+    "backgroundImage": "./img/health.jfif"
+  },
+  {
+    "type": "Fashion",
+    "popularCategories": [
+      "Footwear",
+      "Women's clothing",
+      "Footwear for women",
+      "Clothes for men",
+      "Men's footwear",
+      "Watches",
+      "Jewelry"
+    ],
+    "moreCategories": [
+      "Accessories for men",
+      "Accessories for women",
+      "Bags and wallets for women",
+      "Mens sunglasses",
+      "Womens sunglasess",
+      "Sneakers",
+      "Deals",
+      "Sell on eBay"
+    ],
+    "backgroundImage": "./img/fashion.jfif"
+  },
+  {
+    "type": "Motors",
+    "popularCategories": [
+      "Auto and truck parts",
+      "Tools and supplies",
+      "Turbo chargers",
+      "Clothing and merchandise",
+      "Shock absorbers",
+      "Electronic and GPS",
+      "Car Care and Detailing",
+      "Vintage pieces"
+    ],
+    "moreCategories": [
+      "Motorcycle parts",
+      "Body and frame",
+      "Engines and parts",
+      "Accessories",
+      "Exhausts and systems",
+      "Rims",
+      "Deals",
+      "Sell on eBay"
+    ],
+    "backgroundImage": "./img/motors.jfif"
+  },
+  {
+    "type": "Sports",
+    "popularCategories": [
+      "Cycling",
+      "Fitness, running and yoga",
+      "Fitness Tech",
+      "Fishing",
+      "Camping",
+      "Scooters",
+      "Team sports"
+    ],
+    "moreCategories": [
+      "Watersports",
+      "Winter sports",
+      "Box and MMA",
+      "Swimming",
+      "GPS & Running Watches",
+      "Garmin",
+      "Deals",
+      "Sell on eBay"
+    ],
+    "backgroundImage": "./img/sports.jfif"
+  }
+]

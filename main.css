@@ -1,0 +1,132 @@
+:root {
+    --dark-grey: #333333;
+    --light-grey: #555;
+    --background-grey: #F7F6F5;
+    --border-grey: #CFCFCF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 62.5%;
+    background: #eee;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    background: var(--background-grey);
+    border-top: thin solid var(--border-grey);
+    border-bottom: thin solid var(--border-grey);
+}
+
+.menu-item {
+    padding: 0.5rem 2rem;
+    border: thin solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-item a {
+    color: var(--dark-grey);
+    font-size: 0.9rem;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.menu-item-active {
+    padding: 0.5rem 2rem;
+    border: thin solid transparent;
+    cursor: pointer;
+}
+
+.menu-item-active a {
+    padding-bottom: 0.5rem;
+    color: var(--dark-grey);
+    font-size: 0.9rem;
+    border-bottom: 2px solid var(--light-grey);
+}
+
+.menu-item-active a:hover {
+    text-decoration: initial;
+    color: inherit;
+}
+
+.menu-item:hover, .menu-item.active-hover {
+    background: #fff;
+    border-right: thin solid var(--border-grey);
+    border-left: thin solid var(--border-grey);
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-grey);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sub-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.text-menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0.5rem 2rem;
+}
+
+.img {
+    flex: 2;
+}
+
+.text-menu p {
+    border-bottom: thin solid var(--border-grey);
+    font-weight: 800;
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+    color: var(--dark-grey);
+}
+
+.text-menu ul {
+    padding: 0;
+}
+
+.text-menu ul li {
+    font-size: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+.text-menu ul li a {
+    color: var(--light-grey);
+    padding-bottom: 0.1rem;
+    border-bottom: thin solid transparent;
+}
+
+.text-menu ul li a:hover {
+    border-bottom: 0.1rem solid var(--border-grey);
+}
